@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp\Setapp\Bin\EntityFramework.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp2\packages\EPiServer.CMS.AspNet.11.3.0\lib\net461\EPiServer.Cms.AspNet.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp2\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp2\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp2\packages\EPiServer.CMS.Core.11.3.0\lib\net461\EPiServer.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\Setapp2\packages\EPiServer.Framework.AspNet.11.3.0\lib\net461\EPiServer.Framework.AspNet.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
