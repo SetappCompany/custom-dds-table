@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Language="C#" Inherits="EpiserverSite1.EPiServerApplication" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Language="C#" Inherits="Setapp.EPiServerApplication" %>
