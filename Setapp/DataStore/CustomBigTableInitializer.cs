@@ -41,9 +41,9 @@ namespace Setapp.DataStore
 
             var tableUpdater = new DynamicDataStoreSqlProvider();
             string sqlCreateTable = tableUpdater.GetCreateTableSql(
-                TableName, 
-                PageViewsDataSqlCreateColumns, 
-                StoreName, 
+                TableName,
+                PageViewsDataSqlCreateColumns,
+                StoreName,
                 PageViewsDataSqlCreateIndexes);
 
             using (var connection = new SqlConnection(databaseHandler.ConnectionSettings.ConnectionString))
