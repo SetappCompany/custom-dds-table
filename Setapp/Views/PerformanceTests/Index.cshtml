@@ -1,0 +1,23 @@
+﻿@model Setapp.Models.PerformanceTestsResults
+
+<h1>Tests results</h1>
+
+<div>
+    <h2>Filling data</h2>
+    <ul>
+        <li>Default table avarage time: @Model.FillingData.DefaultTableExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.FillingData.CustomTableExecutionTime ms</li>
+    </ul>
+    
+    <h2>Retriving data</h2>
+    <ul>
+        <li>Default table avarage time: @Model.RetrievingData.DefaultTableExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingData.CustomTableExecutionTime ms</li>
+    </ul>
+
+    <h2>Retriving data without fake data</h2>
+    <ul>
+        <li>Default table avarage time: @Model.RetrievingDataWithoutFakeData.DefaultTableExecutionTime ms</li>
+        <li>Custom table avarage time: @Model.RetrievingDataWithoutFakeData.CustomTableExecutionTime ms</li>
+    </ul>
+</div>
