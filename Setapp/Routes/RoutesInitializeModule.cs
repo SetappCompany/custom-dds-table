@@ -20,6 +20,16 @@ namespace Setapp.Routes
                     action = "Index"
                 }
             );
+
+            RouteTable.Routes.MapRoute(
+                "Home",
+                "",
+                new
+                {
+                    controller = "Home",
+                    action = "Index"
+                }
+            );
         }
 
         public void Uninitialize(InitializationEngine context)

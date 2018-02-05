@@ -219,6 +219,7 @@
   <ItemGroup>
     <Compile Include="Business\PerformanceTests.cs" />
     <Compile Include="Business\TimeComparision.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DataStore\CustomBigTableInitializer.cs" />
     <Compile Include="DataStore\DefaultTablePageViewsData.cs" />
     <Compile Include="DataStore\DynamicDataStoreSqlProvider.cs" />
@@ -242,13 +243,14 @@
     <Content Include="App_Data\GeoLiteCity.dat" />
     <None Include="EPiServerLog.config" />
     <Content Include="Views\PerformanceTests\Index.cshtml" />
-    <Content Include="packages.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\web.config" />
     <Content Include="modules\_protected\EPiServer.Cms.TinyMce\EPiServer.Cms.TinyMce.zip" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
+    <Content Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
